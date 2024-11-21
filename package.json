@@ -1,0 +1,19 @@
+{
+  "name": "qiita",
+  "version": "1.0.0",
+  "description": "Qiita 記事",
+  "main": "index.js",
+  "scripts": {
+    "login": "set -a; source .env; set +a; npx qiita login",
+    "preview": "npx qiita preview",
+    "create": "npx qiita new",
+    "publish": "npx qiita publish",
+    "publish:all": "npx qiita publish --all",
+    "pull": "npx qiita pull"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@qiita/qiita-cli": "^1.6.1"
+  }
+}
